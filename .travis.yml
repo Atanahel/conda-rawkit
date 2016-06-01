@@ -28,7 +28,6 @@ install:
   
 script:
   - conda build --py=$TRAVIS_PYTHON_VERSION .
-  - conda install --use-local rawkit
 
 deploy:
   - provider: script
